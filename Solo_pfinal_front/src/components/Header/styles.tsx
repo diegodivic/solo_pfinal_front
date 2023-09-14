@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import THEME from '../../theme';
 
+
 export const MeuHeader = styled.header`
     font-family: Public Sans;
     border: 1px solid black;
@@ -9,6 +10,7 @@ export const MeuHeader = styled.header`
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    
 
     a{
         color: ${THEME.COLORS.WHITE};
